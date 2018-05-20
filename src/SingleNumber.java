@@ -2,26 +2,27 @@ public class SingleNumber {
 
     public static void main(String args[])
     {
-        int a[] = {1,2,1,6,2,9};
-        int diff = 0;
-        for (int num : a) {
-            diff ^= num;
+        int nums[] = {1,2,5,3,2,1};
+        int diff=0;
+        for (int x:nums) {
+            diff ^=x;
         }
 
+        int ans[] =new int[2];
         diff &= -diff;
-
-        System.out.println(diff);
-
-        int ans[] = new int[2];
-        for (int num: a)
-        {
-            if((num & diff) == 0)
-                ans[0] ^= num;
+        for(int n:nums){
+            if((n&diff) ==0)
+            {
+                ans[0] ^=n;
+            }
             else
-                ans[1] ^= num;
+            {
+                ans[1] ^=n;
+            }
         }
-        for(int i=0;i<ans.length;i++)
-            System.out.print(ans[i] + " ");
+
+        for(int a:ans)
+            System.out.print(a +" ");
     }
 
 }

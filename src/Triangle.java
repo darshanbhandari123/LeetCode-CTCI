@@ -38,20 +38,22 @@ public class Triangle {
     private int getMinimumSum(List<List<Integer>> triangle) {
         if (triangle == null) return 0;
         int len = triangle.size();
-        int[] dp = new int[len];
-        for (int i = 0; i < dp.length; i++)
-            dp[i] = triangle.get(len - 1).get(i);
-        for (int i = len - 2; i >= 0; i--) {
-            List<Integer> row = triangle.get(i);
-            for (int j = 0; j < row.size(); j++)
-                dp[j] = row.get(j) + Math.min(dp[j], dp[j + 1]);
 
-            for (int x:dp)
+        int dp[] = new int[len];
+        List<Integer> list = new ArrayList<>(triangle.get(len-1));
+        for (int i=0;i<len;i++)
+        {
+            dp[i] = list.get(i);
+        }
+
+        for(int j = len-2;j>=0;j--)
+        {
+            List<Integer> row = new ArrayList<>(triangle.get(j));
+            for(int k=0;k<row.size();k++)
             {
-                System.out.print(x+"  ");
+                int num = row.get(k);
+                dp[k] = Math.min(num + dp[k],num + dp[k+1]);
             }
-
-            System.out.println();
         }
         return dp[0];
     }
