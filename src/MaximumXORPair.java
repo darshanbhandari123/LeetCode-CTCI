@@ -1,5 +1,5 @@
 public class MaximumXORPair {
-    
+
     static class Node
     {
         Node left;
@@ -80,8 +80,12 @@ public class MaximumXORPair {
                 }
             }
 
+
             if(current_xor>max_xor)
                 max_xor = current_xor;
+
+            System.out.println("For value:"+value +"the current xor is:"+ current_xor);
+            System.out.println("maximum xor after this is "+max_xor+"\n\n");
         }
 
         return max_xor;
