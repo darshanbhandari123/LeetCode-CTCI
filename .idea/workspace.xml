@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e751aeb-6cf3-44fd-b39d-f9c572174168" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CircularArrayLoop.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MaximumXORPair.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetcodeC&amp;CTCI/CircularArrayLoop.class" afterPath="$PROJECT_DIR$/out/production/LeetcodeC&amp;CTCI/CircularArrayLoop.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -57,11 +58,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CircularArrayLoop.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CircularArrayLoop.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CircularArrayLoop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="908">
+            <state relative-caret-position="404">
               <caret line="56" column="20" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaximumXORPair.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MaximumXORPair.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-168">
+              <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -107,6 +118,7 @@
         <option value="$PROJECT_DIR$/src/WordLadder.java" />
         <option value="$PROJECT_DIR$/src/LexicographicNumber.java" />
         <option value="$PROJECT_DIR$/src/CircularArrayLoop.java" />
+        <option value="$PROJECT_DIR$/src/MaximumXORPair.java" />
       </list>
     </option>
   </component>
@@ -179,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CircularArrayLoop">
+  <component name="RunManager" selected="Application.MaximumXORPair">
     <configuration name="CircularArrayLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="CircularArrayLoop" />
@@ -208,9 +220,9 @@
       <module name="LeetcodeC&amp;CTCI" />
       <envs />
     </configuration>
-    <configuration name="QueueReconstructionByHeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MaximumXORPair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="QueueReconstructionByHeight" />
+      <option name="MAIN_CLASS_NAME" value="MaximumXORPair" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -222,9 +234,9 @@
       <module name="LeetcodeC&amp;CTCI" />
       <envs />
     </configuration>
-    <configuration name="ReorderList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="QueueReconstructionByHeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="ReorderList" />
+      <option name="MAIN_CLASS_NAME" value="QueueReconstructionByHeight" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -332,19 +344,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ReorderList" />
-      <item index="1" class="java.lang.String" itemvalue="Application.QueueReconstructionByHeight" />
-      <item index="2" class="java.lang.String" itemvalue="Application.WordLadder" />
-      <item index="3" class="java.lang.String" itemvalue="Application.LexicographicNumber" />
-      <item index="4" class="java.lang.String" itemvalue="Application.CircularArrayLoop" />
+      <item index="0" class="java.lang.String" itemvalue="Application.QueueReconstructionByHeight" />
+      <item index="1" class="java.lang.String" itemvalue="Application.WordLadder" />
+      <item index="2" class="java.lang.String" itemvalue="Application.LexicographicNumber" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CircularArrayLoop" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MaximumXORPair" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.CircularArrayLoop" />
-        <item index="1" class="java.lang.String" itemvalue="Application.LexicographicNumber" />
-        <item index="2" class="java.lang.String" itemvalue="Application.WordLadder" />
-        <item index="3" class="java.lang.String" itemvalue="Application.QueueReconstructionByHeight" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ReorderList" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MaximumXORPair" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CircularArrayLoop" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LexicographicNumber" />
+        <item index="3" class="java.lang.String" itemvalue="Application.WordLadder" />
+        <item index="4" class="java.lang.String" itemvalue="Application.QueueReconstructionByHeight" />
       </list>
     </recent_temporary>
   </component>
@@ -361,12 +373,12 @@
       <workItem from="1510706862630" duration="20168000" />
       <workItem from="1526515799039" duration="24414000" />
       <workItem from="1526868016517" duration="6147000" />
-      <workItem from="1527115242315" duration="3160000" />
+      <workItem from="1527115242315" duration="7092000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53889000" />
+    <option name="totallyTimeSpent" value="57821000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -381,7 +393,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -585,8 +597,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CircularArrayLoop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="908">
+        <state relative-caret-position="404">
           <caret line="56" column="20" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaximumXORPair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
           <folding />
         </state>
       </provider>
