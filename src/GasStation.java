@@ -24,9 +24,15 @@ public class GasStation {
         }
 
         if(gasSum>=costSum)
-            return 1;
-        else
-            return -1;
+        {
+            for (int i =0;i<gas.length;i++)
+            {
+                if(gas[i]>cost[i])
+                    return i;
+            }
+        }
+
+        return -1;
     }
 
 }
