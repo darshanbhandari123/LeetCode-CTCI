@@ -59,8 +59,8 @@
       <file leaf-file-name="GasStation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GasStation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            <state relative-caret-position="459">
+              <caret line="54" column="5" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -369,12 +369,12 @@
       <workItem from="1526515799039" duration="24414000" />
       <workItem from="1526868016517" duration="6147000" />
       <workItem from="1527115242315" duration="7193000" />
-      <workItem from="1527201405146" duration="19664000" />
+      <workItem from="1527201405146" duration="20899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77586000" />
+    <option name="totallyTimeSpent" value="78821000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -711,8 +711,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GasStation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        <state relative-caret-position="459">
+          <caret line="54" column="5" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
           <folding />
         </state>
       </provider>
