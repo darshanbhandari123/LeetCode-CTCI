@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e751aeb-6cf3-44fd-b39d-f9c572174168" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GasStation.java" afterPath="$PROJECT_DIR$/src/GasStation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/KthLargest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,11 +57,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GasStation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GasStation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GasStation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="54" column="5" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
+            <state relative-caret-position="387">
+              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KthLargest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/KthLargest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -114,6 +125,7 @@
         <option value="$PROJECT_DIR$/src/CoinChangeII.java" />
         <option value="$PROJECT_DIR$/src/IsAdditiveNumber.java" />
         <option value="$PROJECT_DIR$/src/GasStation.java" />
+        <option value="$PROJECT_DIR$/src/KthLargest.java" />
       </list>
     </option>
   </component>
@@ -186,7 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GasStation">
+  <component name="RunManager" selected="Application.KthLargest">
     <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="CoinChange" />
@@ -243,9 +255,9 @@
       <module name="LeetcodeC&amp;CTCI" />
       <envs />
     </configuration>
-    <configuration name="SubsetII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="KthLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="SubsetII" />
+      <option name="MAIN_CLASS_NAME" value="KthLargest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -339,19 +351,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.SubsetII" />
-      <item index="1" class="java.lang.String" itemvalue="Application.CoinChange" />
-      <item index="2" class="java.lang.String" itemvalue="Application.CoinChangeII" />
-      <item index="3" class="java.lang.String" itemvalue="Application.IsAdditiveNumber" />
-      <item index="4" class="java.lang.String" itemvalue="Application.GasStation" />
+      <item index="0" class="java.lang.String" itemvalue="Application.CoinChange" />
+      <item index="1" class="java.lang.String" itemvalue="Application.CoinChangeII" />
+      <item index="2" class="java.lang.String" itemvalue="Application.IsAdditiveNumber" />
+      <item index="3" class="java.lang.String" itemvalue="Application.GasStation" />
+      <item index="4" class="java.lang.String" itemvalue="Application.KthLargest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.GasStation" />
-        <item index="1" class="java.lang.String" itemvalue="Application.IsAdditiveNumber" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CoinChangeII" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CoinChange" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SubsetII" />
+        <item index="0" class="java.lang.String" itemvalue="Application.KthLargest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.GasStation" />
+        <item index="2" class="java.lang.String" itemvalue="Application.IsAdditiveNumber" />
+        <item index="3" class="java.lang.String" itemvalue="Application.CoinChangeII" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CoinChange" />
       </list>
     </recent_temporary>
   </component>
@@ -369,12 +381,12 @@
       <workItem from="1526515799039" duration="24414000" />
       <workItem from="1526868016517" duration="6147000" />
       <workItem from="1527115242315" duration="7193000" />
-      <workItem from="1527201405146" duration="20899000" />
+      <workItem from="1527201405146" duration="22721000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78821000" />
+    <option name="totallyTimeSpent" value="80643000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -389,7 +401,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32795697" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32795697" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -711,8 +723,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GasStation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="54" column="5" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
+        <state relative-caret-position="387">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KthLargest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
           <folding />
         </state>
       </provider>
