@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e751aeb-6cf3-44fd-b39d-f9c572174168" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/NextRightPointer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PalindromicSubstring.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -87,11 +87,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NextRightPointer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NextRightPointer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NextRightPointer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1084">
-              <caret line="77" column="29" lean-forward="true" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
+            <state relative-caret-position="200">
+              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PalindromicSubstring.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PalindromicSubstring.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -148,6 +158,7 @@
         <option value="$PROJECT_DIR$/src/KthLargest.java" />
         <option value="$PROJECT_DIR$/src/EliminationGame.java" />
         <option value="$PROJECT_DIR$/src/NextRightPointer.java" />
+        <option value="$PROJECT_DIR$/src/PalindromicSubstring.java" />
       </list>
     </option>
   </component>
@@ -226,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NextRightPointer">
+  <component name="RunManager" selected="Application.PalindromicSubstring">
     <configuration name="EliminationGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="EliminationGame" />
@@ -255,20 +266,6 @@
       <module name="LeetcodeC&amp;CTCI" />
       <envs />
     </configuration>
-    <configuration name="IsAdditiveNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="IsAdditiveNumber" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LeetcodeC&amp;CTCI" />
-      <envs />
-    </configuration>
     <configuration name="KthLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="KthLargest" />
@@ -286,6 +283,20 @@
     <configuration name="NextRightPointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="NextRightPointer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LeetcodeC&amp;CTCI" />
+      <envs />
+    </configuration>
+    <configuration name="PalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="PalindromicSubstring" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -379,19 +390,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.IsAdditiveNumber" />
-      <item index="1" class="java.lang.String" itemvalue="Application.GasStation" />
-      <item index="2" class="java.lang.String" itemvalue="Application.KthLargest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.EliminationGame" />
-      <item index="4" class="java.lang.String" itemvalue="Application.NextRightPointer" />
+      <item index="0" class="java.lang.String" itemvalue="Application.GasStation" />
+      <item index="1" class="java.lang.String" itemvalue="Application.KthLargest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.EliminationGame" />
+      <item index="3" class="java.lang.String" itemvalue="Application.NextRightPointer" />
+      <item index="4" class="java.lang.String" itemvalue="Application.PalindromicSubstring" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.NextRightPointer" />
-        <item index="1" class="java.lang.String" itemvalue="Application.EliminationGame" />
-        <item index="2" class="java.lang.String" itemvalue="Application.KthLargest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.GasStation" />
-        <item index="4" class="java.lang.String" itemvalue="Application.IsAdditiveNumber" />
+        <item index="0" class="java.lang.String" itemvalue="Application.PalindromicSubstring" />
+        <item index="1" class="java.lang.String" itemvalue="Application.NextRightPointer" />
+        <item index="2" class="java.lang.String" itemvalue="Application.EliminationGame" />
+        <item index="3" class="java.lang.String" itemvalue="Application.KthLargest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.GasStation" />
       </list>
     </recent_temporary>
   </component>
@@ -409,12 +420,12 @@
       <workItem from="1526515799039" duration="24414000" />
       <workItem from="1526868016517" duration="6147000" />
       <workItem from="1527115242315" duration="7193000" />
-      <workItem from="1527201405146" duration="25475000" />
+      <workItem from="1527201405146" duration="26533000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83397000" />
+    <option name="totallyTimeSpent" value="84455000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -429,7 +440,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32795697" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32795697" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -775,8 +786,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NextRightPointer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1084">
-          <caret line="77" column="29" lean-forward="true" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
+        <state relative-caret-position="200">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PalindromicSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding />
         </state>
       </provider>
