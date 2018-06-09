@@ -13,7 +13,7 @@ public class DailyTemperatures {
     private static int[] computeArray(int[] temperatures) {
 
         int ans[] = new int[temperatures.length];
-        int stack[] = new int[temperatures.length];
+        int stack[] = new int[temperatures.length]; // to keep track of latest maximum and also the next un attended maximum(starting from top).
         int top = -1;
 
         for (int i=0;i<temperatures.length;i++)
@@ -27,7 +27,7 @@ public class DailyTemperatures {
 
             top++;
             stack[top] = i;
-            
+
         }
 
         return ans;
