@@ -36,15 +36,15 @@ public class Permutations {
     private static void helper(List<List<Integer>> result,List<Integer> temp,int[] nums){
 
         if(temp.size() == nums.length){
-            result.add(new ArrayList<>(temp));
+            result.add(new ArrayList<>(temp));          // when the temporary list has 3 elements, we will add it to the result and basically return
         }
         else {
             for (int i=0;i<nums.length;i++){
-                if(temp.contains(nums[i]))
+                if(temp.contains(nums[i]))              //to avoid duplication we check for this
                     continue;
                 temp.add(nums[i]);
-                helper(result,temp,nums);
-                temp.remove(temp.size()-1);
+                helper(result,temp,nums);               //this is to implement dfs.
+                temp.remove(temp.size()-1);         // this is the basic backtracking the calls will be like a dfs.(1   1,2     1,2,3      1,3      1,3,2   2   etc etc)
             }
         }
 

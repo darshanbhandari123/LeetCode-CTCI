@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e751aeb-6cf3-44fd-b39d-f9c572174168" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PalindromeNumber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Permutations.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetcodeC&amp;CTCI/Permutations.class" afterPath="$PROJECT_DIR$/out/production/LeetcodeC&amp;CTCI/Permutations.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ZigZagConversion.java" afterPath="$PROJECT_DIR$/src/ZigZagConversion.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Permutations.java" afterPath="$PROJECT_DIR$/src/Permutations.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,8 +94,8 @@
       <file leaf-file-name="Permutations.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Permutations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="46" column="43" lean-forward="false" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+            <state relative-caret-position="238">
+              <caret line="35" column="88" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="88" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -467,12 +466,12 @@
       <workItem from="1526868016517" duration="6147000" />
       <workItem from="1527115242315" duration="7193000" />
       <workItem from="1527201405146" duration="41543000" />
-      <workItem from="1528289161211" duration="56451000" />
+      <workItem from="1528289161211" duration="57541000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155916000" />
+    <option name="totallyTimeSpent" value="157006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -919,8 +918,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Permutations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="46" column="43" lean-forward="false" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+        <state relative-caret-position="238">
+          <caret line="35" column="88" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="88" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
