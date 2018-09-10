@@ -10,48 +10,28 @@ public class GasStation {
         System.out.println(ans);
     }
 
-    private static int canCompleteCircle(int gas[],int cost[])
-    {
-        if(gas.length!=cost.length)
-            return -1;
+    private static int canCompleteCircle(int gas[],int cost[]) {
 
-        int gasSum = 0;
-        int costSum = 0;
+        int start = 0;
+        int remain = 0;
+        int debt = 0;
 
-        for (int x: gas) {
-            gasSum += x;
-        }
+        for(int i=0;i<gas.length;i++){
 
-        for (int y:cost) {
-            costSum +=y;
-        }
-
-        if(gasSum>=costSum)
-        {
-            for (int i =0;i<gas.length;i++)
-            {
-                boolean flag = checkGasLeft(gas,cost,i);
-                if(flag)
-                    return i;
+            remain += gas[i] - cost[i];
+            if(remain < 0){
+                start = i+1;
+                debt = debt + (-1 * remain);
+                remain = 0;
             }
         }
 
-        return -1;
-    }
-
-    private static boolean checkGasLeft(int gas[],int cost[],int i)
-    {
-        int index = i;
-        int gasLeft = 0;
-        for(int j = 0;j<gas.length;j++)
-        {
-            gasLeft += (gas[(index)%gas.length]-cost[(index)%gas.length]);
-            index++;
-            if(gasLeft<0)
-                return false;
+        if(remain >= debt){
+            return start;
         }
 
-        return true;
+        return -1;
+
     }
 
 }

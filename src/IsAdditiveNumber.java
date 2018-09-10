@@ -17,7 +17,7 @@ public class IsAdditiveNumber {
     private static boolean isAdditive(String str)
     {
         int n = str.length();
-        for (int i=1;i<=n/2;i++)
+        for (int i=1;i<=n/2;i++)                    //i and j is the no. of digits in the first and second number respectively.
         {
             for (int j =1; Math.max(i,j)<=n-i-j;j++)
             {

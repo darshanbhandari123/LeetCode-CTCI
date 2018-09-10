@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -9,8 +8,8 @@ public class ThreeSum {
 
         int nums[] = {-1, 0, 1, 2, -1, -4};
 
-        List<ArrayList<Integer>> result = threeSum(nums);
-        for (ArrayList<Integer> x: result) {
+        List<List<Integer>> result = threeSum(nums);
+        for (List<Integer> x: result) {
             for (int a:x) {
                 System.out.print(a+" ");
             }
@@ -18,9 +17,9 @@ public class ThreeSum {
         }
     }
 
-    private static List<ArrayList<Integer>> threeSum(int[] nums){
+    private static List<List<Integer>> threeSum(int[] nums){
 
-        List<ArrayList<Integer>> result = new ArrayList<>();
+        List<List<Integer>> result = new ArrayList<>();
         if (nums == null || nums.length<3)
             return result;
 
